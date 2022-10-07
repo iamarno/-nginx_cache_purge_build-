@@ -41,6 +41,6 @@ ls -la objs/*/*
 find . -name *.so
 
 # copy module to module directory
-cp objs/*.so /module/.
+cp objs/addon/ngx_cache_purge-2.3/ngx_cache_purge_module.o /module/ngx_cache_purge_module.so
 
 exit 0

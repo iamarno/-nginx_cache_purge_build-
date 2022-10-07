@@ -30,7 +30,7 @@ jobs:
     - name: upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: ngx_http_brotli_modules
+        name: ngx_http_cache_purge_modules
         path: /home/runner/module/*.so
         retention-days: 5
         if-no-files-found: error
