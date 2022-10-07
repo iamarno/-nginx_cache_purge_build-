@@ -16,11 +16,10 @@ tar xfv nginx-$nginx_version.tar.gz
 
 # download module source
 wget https://github.com/FRiCKLE/ngx_cache_purge/archive/refs/tags/$module_version.tar.gz
-ls -la
 
 # extract
 tar xfv $module_version.tar.gz
-ls -la
+
 # cd
 cd nginx-$nginx_version
 
@@ -37,7 +36,8 @@ make install
 pwd
 ls -la
 ls -la objs
-
+ls -la objs/*
+ls -la objs/*/*
 
 # copy module to module directory
 cp objs/*.so /module/.
