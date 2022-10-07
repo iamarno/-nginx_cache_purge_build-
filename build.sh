@@ -15,7 +15,6 @@ wget http://nginx.org/download/nginx-$nginx_version.tar.gz
 tar xfv nginx-$nginx_version.tar.gz
 
 # download module source
-wget https://github.com/google/ngx_brotli/archive/refs/tags/v$module_version.tar.gz
 wget https://github.com/FRiCKLE/ngx_cache_purge/archive/refs/tags/$module_version.tar.gz
 
 # extract
