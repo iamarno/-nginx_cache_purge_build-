@@ -19,8 +19,8 @@ wget https://github.com/FRiCKLE/ngx_cache_purge/archive/refs/tags/$module_versio
 ls -la
 
 # extract
-tar xfv ngx_cache_purge-$module_version.tar.gz
-
+tar xfv $module_version.tar.gz
+ls -la
 # cd
 cd nginx-$nginx_version
 
