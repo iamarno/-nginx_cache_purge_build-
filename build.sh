@@ -32,6 +32,12 @@ make
 # make install
 make install
 
+#debug
+pwd
+ls -la
+ls -la objs
+
+
 # copy module to module directory
 cp objs/*.so /module/.
 
