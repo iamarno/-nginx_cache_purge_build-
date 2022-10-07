@@ -38,6 +38,7 @@ ls -la
 ls -la objs
 ls -la objs/*
 ls -la objs/*/*
+find . -name *.so
 
 # copy module to module directory
 cp objs/*.so /module/.
