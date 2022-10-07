@@ -31,6 +31,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: ngx_http_brotli_modules
-        path: /home/runner/module/ngx_http_brotli_*_module.so
+        path: /home/runner/module/*.so
         retention-days: 5
         if-no-files-found: error

@@ -33,7 +33,6 @@ make
 make install
 
 # copy module to module directory
-cp objs/ngx_http_brotli_filter_module.so /module/.
-cp objs/ngx_http_brotli_static_module.so /module/.
+cp objs/*.so /module/.
 
 exit 0
