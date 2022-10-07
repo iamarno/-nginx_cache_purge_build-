@@ -16,6 +16,7 @@ tar xfv nginx-$nginx_version.tar.gz
 
 # download module source
 wget https://github.com/FRiCKLE/ngx_cache_purge/archive/refs/tags/$module_version.tar.gz
+ls -la
 
 # extract
 tar xfv ngx_cache_purge-$module_version.tar.gz
